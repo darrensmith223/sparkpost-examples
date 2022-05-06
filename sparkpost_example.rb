@@ -1,7 +1,5 @@
 require 'net/http'
 require 'JSON'
-require 'rubygems'
-require 'nokogiri'
 
 def send_email(api_key, transmission_obj)
     uri = URI("https://api.sparkpost.com/api/v1/transmissions")
